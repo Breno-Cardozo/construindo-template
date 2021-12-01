@@ -11,13 +11,16 @@
     <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <title>Curriculo: Breno Cardozo</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fundo_nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/avatar.png" alt="" width="100%" height="100%">
+                <img src="img/avatar.png" class="logo" width="100%" height="100%">
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,19 +28,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto  justify-content-end">
               <li class="nav-item">
-                <a class="nav-link corhead" aria-current="page" href="#sobre">Sobre</a>
+                <a class="menu" aria-current="page" href="#sobre">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link corhead" aria-current="page" href="#con">Conhecimentos</a>
+                <a class="menu" aria-current="page" href="#con">Conhecimentos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link corhead" aria-current="page" href="#tra">Trabalhos</a>
+                <a class="menu" aria-current="page" href="#tra">Trabalhos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link corhead" aria-current="page" href="#hob">Hobbies</a>
+                <a class="menu" aria-current="page" href="#hob">Hobbies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link corhead" aria-current="page" href="#cont">Contato</a>
+                <a class="menu" aria-current="page" href="#cont">Contato</a>
               </li>
                 </ul>
               </li>
@@ -67,23 +70,16 @@
           </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+
       </div>
 
       <div class="container">
 
-          <section id="sobre">
+          <section class="sobre" id="sobre">
             <h1 class="text-center"> Sobre mim</h1>
             <div class="row">
               <div class="col-md-4">
-                <img src="img/foto01.jpg">
+                <img class="foto" src="img/foto01.jpg">
               </div>
               <div class="col-md-8">
                 <p>Meu nome é Breno Cardozo Fagundes, eu tenho 16 anos e nos dias de hoje eu sou estudante da Etec Profº. Maria Cristina Medeiros, curso o primeiro ano do meu Ensino Médio que consequentemente também é o primeiro ano do meu Curso Técnico de Informática para Internet.</p>
@@ -93,7 +89,7 @@
             </div>
           </section>
           
-          <section id="con">
+          <section class="conhecimento" id="con">
             <h1 class="text-center"> Conhecimentos</h1>
             <div class="row">
               <div class="col-md-4">
@@ -114,7 +110,7 @@
             </div>
         </section>
         
-        <section id="tra">
+        <section class="trabalhos" id="tra">
           <h1 class="text-center"> Veja a seguir alguns trabalhos já realizados por mim:</h1>
           <p>Para acessa-los, basta clicar na imagem do trabalho desejado que imediatamente você será redirecionado para o mesmo!</p>
           <div class="row">
@@ -132,7 +128,7 @@
           </div>
         </section>
 
-        <section id="hob">
+        <section class="hob" id="hob">
           <h1 class="text-center">Meus hobbies</h1>
           <div class="row">
             <div class="col-md-9">
@@ -146,7 +142,7 @@
             </div>
           </div>
         </section>
-        <section id="cont">
+        <section class="cont" id="cont">
           <h1 class="text-center">Entre em contato comigo</h1>
           <p class="text-center">Estes são meus contatos:</p>
           <div class="row">
