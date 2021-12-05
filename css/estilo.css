@@ -96,8 +96,20 @@ div#borda{
 
 .card{
     margin-left: 8%;
+    text-align: center;
 }
 
 .footer{
     background-color: #4682B4;
 }
+
+
+.redes{
+    width: 75px;
+    transition: width 1s, height 1s;
+}
+
+hr{
+    color: #4682B4;
+}
+
